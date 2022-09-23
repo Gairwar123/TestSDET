@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: testclass.TestclassMovie
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.103 s <<< FAILURE! - in testclass.TestclassMovie
+extractTheDetailsTest(testclass.TestclassMovie)  Time elapsed: 25.83 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Date of Wiki and IMDB is not Matching expected [January 7, 2022 (United States)] but found [17 December 2021]
+	at testclass.TestclassMovie.extractTheDetailsTest(TestclassMovie.java:89)
+
